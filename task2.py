@@ -20,3 +20,10 @@ positive
 Enter a number: -1.2
 negative
 """
+x = int(input("enter a number"))
+if x==0:
+    print("the number is zero")
+elif x < 0:
+     print("the number is negative")
+elif x > 0:
+    print("the number is larger then 0")

@@ -33,3 +33,14 @@ that is an obtuse triangle
 
 
 """
+import math
+side1=float(input("enter the length of side1:"))
+side2=float(input("enter the length of side2:"))
+side3=float(input("enter the length of side3:"))
+hypotenuse=max(side1,side2,side3)
+expected_hypotenuse=math.sqrt(side1**2+side2**2)
+percent_dif=abs(expected_hypotenuse-hypotenuse)/expected_hypotenuse*100
+if percent_dif<2:
+    print ("the side length are close enough to make a right triangle.")
+else:
+    print("the side length do not form a right triangle")

@@ -10,3 +10,4 @@
 # Outputs:
 # "the number is an integer"
 # "the number is not an integer"
+num=int(input("please enter an integer number:"))

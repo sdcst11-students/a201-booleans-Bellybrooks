@@ -19,3 +19,11 @@ The number is 100
 Enter a number: 102
 The number is larger than 100
 """
+
+x = int(input("enter a number"))
+if x==100:
+    print("the number is = to 100")
+elif x > 100:
+     print("the number is larger then 100")
+elif x < 100:
+    print("the number is smaller then 100")
